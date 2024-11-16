@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    color: rgb(81, 151, 81);
+    padding-left: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+header nav {
+    background-color: rgb(81, 151, 81);
+    padding: 1rem 2rem;
+    margin: auto 1rem;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: auto 1rem;
+}
+.container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto 2.5rem; 
+}
+#column {
+    margin: 10px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 10px;
+}
+#column #name {
+    background-color: rgb(228, 228, 228);
+    padding: 1rem;
+    color: rgb(66, 122, 66);
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+#column img {
+    width: 100%;
+    height: 100%;
+    margin: 2rem;
+}
